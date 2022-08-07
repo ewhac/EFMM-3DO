@@ -1,0 +1,506 @@
+[
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "imgfile.o",
+            "imgfile.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "imgfile.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "leveldef.o",
+            "leveldef.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "leveldef.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "sound.o",
+            "sound.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "sound.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "loadloaf.o",
+            "loadloaf.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "loadloaf.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "file.o",
+            "file.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "file.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "shoot.o",
+            "shoot.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "shoot.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "statscreen.o",
+            "statscreen.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "statscreen.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "ob_zombie.o",
+            "ob_zombie.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "ob_zombie.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "ob_head.o",
+            "ob_head.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "ob_head.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "ob_powerup.o",
+            "ob_powerup.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "ob_powerup.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "soundinterface.o",
+            "soundinterface.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "soundinterface.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "cinepak.o",
+            "cinepak.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "cinepak.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "ob_exit.o",
+            "ob_exit.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "ob_exit.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "timing.o",
+            "timing.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "timing.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "thread.o",
+            "thread.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "thread.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "ob_trigger.o",
+            "ob_trigger.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "ob_trigger.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "objects.o",
+            "objects.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "objects.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "ob_george.o",
+            "ob_george.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "ob_george.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "rend.o",
+            "rend.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "rend.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "elkabong.o",
+            "elkabong.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "elkabong.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "ctst.o",
+            "ctst.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "ctst.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "option.o",
+            "option.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "option.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "genmessage.o",
+            "genmessage.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "genmessage.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "ob_spider.o",
+            "ob_spider.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "ob_spider.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "map.o",
+            "map.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "map.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "clip.o",
+            "clip.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "clip.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "levelfile.o",
+            "levelfile.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "levelfile.c"
+    },
+    {
+        "arguments": [
+            "/home/ewhac/hackery/3do-devkit/bin/compiler/linux/armcc",
+            "-c",
+            "-Wanp",
+            "-I/home/ewhac/hackery/3do-devkit/include/3dosdk/1p3",
+            "-Idssupport",
+            "-bigend",
+            "-fc",
+            "-zps0",
+            "-za1",
+            "-o",
+            "titleseq.o",
+            "titleseq.c"
+        ],
+        "directory": "/home/ewhac/hackery/EFMM",
+        "file": "titleseq.c"
+    }
+]

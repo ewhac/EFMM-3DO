@@ -1,0 +1,189 @@
+
+
+# 22:12:25 ----- Build of all.
+# 22:12:25 ----- Analyzing dependencies.
+
+### Make - Warning: Overriding exported variable definition for "CINCLUDES"
+File "MakeFile"; Line 25
+
+### Make - Warning: Overriding exported variable definition for "AINCLUDES"
+File "MakeFile"; Line 26
+# 22:12:27 ----- Executing build commands.
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o ctst.o ctst.c
+File ":ctst.c"; Line 278 # Warning: inventing 'extern int exit();'
+File ":ctst.c"; Line 467 # Warning: implicit cast from (void *), C++ forbids
+File ":ctst.c"; Line 984 # Warning: variable 'gc' declared but not used
+File ":ctst.c"; Line 984 # Warning: variable 'i' declared but not used
+File ":ctst.c"; Line 984 # Warning: variable 'vert' declared but not used
+File ":ctst.c"; Line 2013 # Warning: implicit return in non-void function
+File ":ctst.c"; Line 2064 # Warning: argument and old-style parameter mismatch: 'SetRast'
+File ":ctst.c"; Line 2106 # Warning: implicit cast from (void *), C++ forbids
+File ":ctst.c"; Line 2138 # Warning: implicit cast from (void *), C++ forbids
+File ":ctst.c"; Line 2153 # Warning: implicit cast from (void *), C++ forbids
+File ":ctst.c"; Line 2204 # Warning: argument and old-style parameter mismatch: 'SetRast'
+File ":ctst.c"; Line 2205 # Warning: argument and old-style parameter mismatch: 'SetRast'
+File ":ctst.c"; Line 2217 # Warning: argument and old-style parameter mismatch: 'fadetoblank'
+File ":ctst.c"; Line 2295 # Warning: implicit cast from (void *), C++ forbids
+File ":ctst.c"; Line 2320 # Warning: argument and old-style parameter mismatch: 'SetRast'
+File ":ctst.c"; Line 2321 # Warning: argument and old-style parameter mismatch: 'SetRast'
+### ":ctst.c": 16 warnings (+ 47 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o rend.o rend.c
+File ":rend.c"; Line 68 # Warning: inventing 'extern int resetlinebuf();'
+File ":rend.c"; Line 104 # Warning: inventing 'extern int islinefull();'
+File ":rend.c"; Line 130 # Warning: inventing 'extern int testmarklinebuf();'
+File ":rend.c"; Line 134 # Warning: Dangling 'else' indicates possible error
+File ":rend.c"; Line 174 # Warning: inventing 'extern int mkVertPtrs();'
+File ":rend.c"; Line 224 # Warning: implicit cast from (void *), C++ forbids
+File ":rend.c"; Line 289 # Warning: implicit cast from (void *), C++ forbids
+File ":rend.c"; Line 381 # Warning: inventing 'extern int kprintf();'
+File ":rend.c"; Line 383 # Warning: inventing 'extern int project();'
+File ":rend.c"; Line 432 # Warning: implicit cast from (void *), C++ forbids
+File ":rend.c"; Line 500 # Warning: implicit cast from (void *), C++ forbids
+File ":rend.c"; Line 508 # Warning: inventing 'extern int memcpy();'
+File ":rend.c"; Line 571 # Warning: implicit cast from (void *), C++ forbids
+File ":rend.c"; Line 896 # Warning: implicit cast from (void *), C++ forbids
+### ":rend.c": 14 warnings (+ 20 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o shoot.o shoot.c
+File ":shoot.c"; Line 524 # Warning: inventing 'extern int rand();'
+### ":shoot.c": 1 warning (+ 37 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o objects.o objects.c
+File ":objects.c"; Line 140 # Warning: implicit cast from (void *), C++ forbids
+File ":objects.c"; Line 455 # Warning: implicit return in non-void function
+File ":objects.c"; Line 558 # Warning: argument and old-style parameter mismatch: 'createStdObject'
+File ":objects.c"; Line 558 # Warning: argument and old-style parameter mismatch: 'createStdObject'
+File ":objects.c"; Line 568 # Warning: implicit cast from (void *), C++ forbids
+File ":objects.c"; Line 672 # Warning: implicit cast from (void *), C++ forbids
+### ":objects.c": 6 warnings (+ 21 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o ob_zombie.o ob_zombie.c
+File ":ob_zombie.c"; Line 46 # Warning: character sequence /* inside comment
+File ":ob_zombie.c"; Line 137 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_zombie.c"; Line 143 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_zombie.c"; Line 153 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_zombie.c"; Line 204 # Warning: inventing 'extern int rand();'
+File ":ob_zombie.c"; Line 370 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_zombie.c"; Line 463 # Warning: inventing 'extern int printf();'
+### ":ob_zombie.c": 7 warnings (+ 10 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o ob_george.o ob_george.c
+File ":ob_george.c"; Line 170 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_george.c"; Line 176 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_george.c"; Line 187 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_george.c"; Line 233 # Warning: inventing 'extern int rand();'
+File ":ob_george.c"; Line 236 # Warning: inventing 'extern int printf();'
+File ":ob_george.c"; Line 430 # Warning: variable 'oldpos' declared but not used
+### ":ob_george.c": 6 warnings (+ 8 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o ob_head.o ob_head.c
+File ":ob_head.c"; Line 160 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_head.c"; Line 166 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_head.c"; Line 177 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_head.c"; Line 257 # Warning: argument and old-style parameter mismatch: 'head'
+File ":ob_head.c"; Line 285 # Warning: inventing 'extern int rand();'
+File ":ob_head.c"; Line 526 # Warning: inventing 'extern int printf();'
+### ":ob_head.c": 6 warnings (+ 8 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o ob_spider.o ob_spider.c
+File ":ob_spider.c"; Line 141 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_spider.c"; Line 152 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_spider.c"; Line 233 # Warning: argument and old-style parameter mismatch: 'spider'
+File ":ob_spider.c"; Line 263 # Warning: inventing 'extern int rand();'
+File ":ob_spider.c"; Line 490 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_spider.c"; Line 529 # Warning: inventing 'extern int printf();'
+### ":ob_spider.c": 6 warnings (+ 10 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o ob_powerup.o ob_powerup.c
+File ":ob_powerup.c"; Line 148 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_powerup.c"; Line 158 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_powerup.c"; Line 254 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_powerup.c"; Line 381 # Warning: inventing 'extern int kprintf();'
+### ":ob_powerup.c": 4 warnings (+ 9 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o ob_exit.o ob_exit.c
+File ":ob_exit.c"; Line 82 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_exit.c"; Line 92 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_exit.c"; Line 106 # Warning: implicit cast from (void *), C++ forbids
+### ":ob_exit.c": 3 warnings (+ 4 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o ob_trigger.o ob_trigger.c
+File ":ob_trigger.c"; Line 81 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_trigger.c"; Line 95 # Warning: implicit cast from (void *), C++ forbids
+File ":ob_trigger.c"; Line 194 # Warning: implicit cast from (void *), C++ forbids
+### ":ob_trigger.c": 3 warnings (+ 14 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o clip.o clip.c
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o levelfile.o levelfile.c
+File ":levelfile.c"; Line 71 # Warning: implicit cast from (void *), C++ forbids
+File ":levelfile.c"; Line 80 # Warning: inventing 'extern int strtol();'
+File ":levelfile.c"; Line 116 # Warning: inventing 'extern int kprintf();'
+File ":levelfile.c"; Line 177 # Warning: implicit cast from (void *), C++ forbids
+File ":levelfile.c"; Line 283 # Warning: inventing 'extern int strchr();'
+### ":levelfile.c": 5 warnings (+ 11 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o leveldef.o leveldef.c
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o genmessage.o genmessage.c
+File ":genmessage.c"; Line 268 # Warning: variable 'gc' declared but not used
+### ":genmessage.c": 1 warning (+ 5 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o statscreen.o statscreen.c
+File ":statscreen.c"; Line 382 # Warning: actual type 'long' mismatches format '%02d'
+File ":statscreen.c"; Line 1329 # Warning: static 'HiScoreHiLitePLUT' declared but not used
+File ":statscreen.c"; Line 1329 # Warning: static 'OrangePLUT' declared but not used
+File ":statscreen.c"; Line 1329 # Warning: static 'BrassHiPLUT' declared but not used
+File ":statscreen.c"; Line 1329 # Warning: static 'BrassPLUT' declared but not used
+### ":statscreen.c": 5 warnings (+ 27 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o thread.o thread.c
+File ":thread.c"; Line 48 # Warning: inventing 'extern int kprintf();'
+File ":thread.c"; Line 66 # Warning: implicit cast from (void *), C++ forbids
+### ":thread.c": 2 warnings (+ 6 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o titleseq.o titleseq.c
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o imgfile.o imgfile.c
+File ":imgfile.c"; Line 47 # Warning: implicit cast from (void *), C++ forbids
+File ":imgfile.c"; Line 62 # Warning: implicit return in non-void function
+File ":imgfile.c"; Line 71 # Warning: implicit cast from (void *), C++ forbids
+File ":imgfile.c"; Line 94 # Warning: argument and old-style parameter mismatch: 'alloccelarray'
+File ":imgfile.c"; Line 103 # Warning: implicit cast from (void *), C++ forbids
+File ":imgfile.c"; Line 117 # Warning: implicit cast from (void *), C++ forbids
+File ":imgfile.c"; Line 190 # Warning: argument and old-style parameter mismatch: 'alloccelarray'
+File ":imgfile.c"; Line 202 # Warning: implicit cast from (void *), C++ forbids
+File ":imgfile.c"; Line 251 # Warning: implicit cast from (void *), C++ forbids
+File ":imgfile.c"; Line 274 # Warning: out-of-bound offset 1 in address
+### ":imgfile.c": 10 warnings (+ 12 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o loadloaf.o loadloaf.c
+File ":loadloaf.c"; Line 51 # Warning: implicit cast from (void *), C++ forbids
+File ":loadloaf.c"; Line 69 # Warning: non-portable - not 1 char in '...'
+File ":loadloaf.c"; Line 157 # Warning: implicit cast from (void *), C++ forbids
+File ":loadloaf.c"; Line 182 # Warning: implicit cast from (void *), C++ forbids
+File ":loadloaf.c"; Line 231 # Warning: implicit cast from (void *), C++ forbids
+File ":loadloaf.c"; Line 253 # Warning: implicit cast from (void *), C++ forbids
+File ":loadloaf.c"; Line 322 # Warning: implicit cast from (void *), C++ forbids
+File ":loadloaf.c"; Line 329 # Warning: implicit cast from (void *), C++ forbids
+### ":loadloaf.c": 8 warnings (+ 16 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o file.o file.c
+File ":file.c"; Line 58 # Warning: implicit cast from (void *), C++ forbids
+### ":file.c": 1 warning (+ 2 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o timing.o timing.c
+File ":timing.c"; Line 77 # Warning: inventing 'extern int sprintf();'
+File ":timing.c"; Line 115 # Warning: inventing 'extern int kprintf();'
+File ":timing.c"; Line 125 # Warning: implicit cast from (void *), C++ forbids
+File ":timing.c"; Line 171 # Warning: static 'MenuFont' declared but not used
+### ":timing.c": 4 warnings, 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o sound.o sound.c
+File ":sound.c"; Line 286 # Warning: static 'dummiesloaded' declared but not used
+### ":sound.c": 1 warning (+ 1 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o soundinterface.o soundinterface.c
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o cinepak.o cinepak.c
+File ":cinepak.c"; Line 183 # Warning: implicit cast from (void *), C++ forbids
+### ":cinepak.c": 1 warning (+ 4 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o map.o map.c
+File ":map.c"; Line 230 # Warning: variable 'tmp' declared but not used
+### ":map.c": 1 warning (+ 10 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o option.o option.c
+File ":option.c"; Line 1316 # Warning: static 'editInstr4Str' declared but not used
+File ":option.c"; Line 1316 # Warning: static 'editInstr3Str' declared but not used
+### ":option.c": 2 warnings (+ 3 suppressed), 0 errors, 0 serious errors
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -J :dssupport -bigend -fc -zps0 -za1 -o elkabong.o elkabong.c
+File ":elkabong.c"; Line 112 # Warning: inventing 'extern int memset();'
+### ":elkabong.c": 1 warning (+ 3 suppressed), 0 errors, 0 serious errors
+    armasm -PD '|_LITTLE_END_| SETL {FALSE};' -I Apps:3DO:Interfaces:1p1:Includes: -I :dssupport -bigend -Apcs 3'/'32bit -o misc.o misc.asm
+ARM AOF Macro Assembler vsn 1.101 (Advanced RISC Machines) [Sep 14 1992]
+    armasm -PD '|_LITTLE_END_| SETL {FALSE};' -I Apps:3DO:Interfaces:1p1:Includes: -I :dssupport -bigend -Apcs 3'/'32bit -o project.o project.asm
+ARM AOF Macro Assembler vsn 1.101 (Advanced RISC Machines) [Sep 14 1992]
+    armlink -AIF -B 0x00 -R -S ctst.catsym -o ctst Apps:3DO:Interfaces:1p1:Libs:cstartup.o ctst.o rend.o shoot.o objects.o ob_zombie.o ob_george.o ob_head.o ob_spider.o ob_powerup.o ob_exit.o ob_trigger.o clip.o levelfile.o leveldef.o genmessage.o statscreen.o thread.o titleseq.o imgfile.o loadloaf.o file.o timing.o sound.o soundinterface.o cinepak.o map.o option.o elkabong.o misc.o project.o font.co font.so :dssupport:Subscriber.lib Apps:3DO:Interfaces:1p1:Libs:Lib3DO.lib Apps:3DO:Interfaces:1p1:Libs:graphics.lib Apps:3DO:Interfaces:1p1:Libs:filesystem.lib Apps:3DO:Interfaces:1p1:Libs:input.lib Apps:3DO:Interfaces:1p1:Libs:audio.lib music.lib Apps:3DO:Interfaces:1p1:Libs:clib.lib Apps:3DO:Interfaces:1p1:Libs:swi.lib Apps:3DO:Interfaces:1p1:Libs:operamath.lib :dssupport:DataAcq.lib :dssupport:DS.lib :dssupport:codec.lib
+### ARM Linker: (Warning) Library :dssupport:codec.lib has no symbol table.
+### ARM Linker: finished,  0 informational, 1 warning and 0 error messages.
+    modbin ctst -stack 10240
+    SetFile -c EaDJ -t PROJ ctst
+    echo "Nice software!"
+Nice software!
+# 22:16:12 ----- Done.

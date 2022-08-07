@@ -1,0 +1,200 @@
+ASMCODE$$Base            00080 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+ASMCODE$$Limit           00220 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+ASMdata$$Base            02d6c in AREA ASMdata from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+ASMdata$$Limit           02d70 in AREA ASMdata from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+ASMCODE                  00080 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+__main                   00100 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+main                     00478 in AREA C$$code from loafit.o
+exit                     00128 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+__rt_stkovf_split_small  0013c in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+__rt_stkovf_split_big    00140 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+ASMdata                  02d6c in AREA ASMdata from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+_KernelBase              02d6c in AREA ASMdata from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+C$$code$$Base            0046c in AREA C$$code from loafit.o
+C$$code$$Limit           004b0 in AREA C$$code from loafit.o
+C$$data$$Base            02d70 in AREA C$$data from loafit.o
+C$$data$$Limit           02d98 in AREA C$$data from loafit.o
+C$$zidata$$Base          02edc in AREA C$$zidata from loafit.o
+C$$zidata$$Limit         030bc in AREA C$$zidata from loafit.o
+C$$debug$$Base           02edc in AREA C$$debug from loafit.o
+C$$debug$$Limit          0aae4 in AREA C$$debug from loafit.o
+x$codeseg                0046c in AREA C$$code from loafit.o
+x$dataseg                02d70 in AREA C$$data from loafit.o
+BuildDate                02d70 in AREA C$$data from loafit.o
+timerior                 02d78 in AREA C$$data from loafit.o
+timerioreq               02d7c in AREA C$$data from loafit.o
+buffptr                  02d80 in AREA C$$data from loafit.o
+celbufsize               02d84 in AREA C$$data from loafit.o
+celbuffer                02d88 in AREA C$$data from loafit.o
+p                        02d8c in AREA C$$data from loafit.o
+pxlc                     02d90 in AREA C$$data from loafit.o
+ccc                      02d94 in AREA C$$data from loafit.o
+plutc                    02d98 in AREA C$$data from loafit.o
+nimages                  02d9c in AREA C$$data from loafit.o
+npdats                   02da0 in AREA C$$data from loafit.o
+npluts                   02da4 in AREA C$$data from loafit.o
+totalplutsize            02da8 in AREA C$$data from loafit.o
+printf                   01a04 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(printf.o)
+usage                    01340 in AREA C$$code from loafit.o
+strcpy                   01a4c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strcpy.o)
+loadfile                 01890 in AREA C$$code from loafit.o
+getnextname              00b0c in AREA C$$code from loafit.o
+strlen                   01a64 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strlen.o)
+terminate                01858 in AREA C$$code from loafit.o
+strcasecmp               01a7c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strncasecmp.o)
+DiskImageEntries         03cec in AREA C$$zidata from loafit.o
+loadcel                  00c08 in AREA C$$code from loafit.o
+getPDAT                  00e2c in AREA C$$code from loafit.o
+strcmp                   01acc in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strcmp.o)
+free                     01af0 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(free.o)
+getPLUT                  010c4 in AREA C$$code from loafit.o
+strtol                   01b18 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strtol.o)
+writeLOAF                008c8 in AREA C$$code from loafit.o
+fopen                    01ba4 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(fopen.o)
+fwrite                   01d4c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(fwrite.o)
+DiskShortCCBs            0338c in AREA C$$zidata from loafit.o
+cels                     0306c in AREA C$$zidata from loafit.o
+PLUTSizes                0419c in AREA C$$zidata from loafit.o
+pluts                    031fc in AREA C$$zidata from loafit.o
+fclose                   01e4c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(fclose.o)
+memcmp                   01298 in AREA C$$code from loafit.o
+KernelBase               02d6c in AREA ASMdata from Apps:3DO:Interfaces:1p1:Libs:cstartup.o
+AllocMemFromMemLists     00164 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+memcpy                   01fc8 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+fseek                    02018 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(fseek.o)
+ftell                    02140 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(ftell.o)
+malloc                   021e0 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(malloc.o)
+fread                    02224 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(fread.o)
+ccbs                     02edc in AREA C$$zidata from loafit.o
+__ctype                  02db4 in AREA C$$data from Apps:3DO:Interfaces:1p1:Libs:clib.lib(ctype.o)
+stdin                    02ec0 in AREA C$$data from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+stdout                   02ec4 in AREA C$$data from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+stderr                   02ec8 in AREA C$$data from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+_SixToAscii              ????? Undefined, WEAK Reference from loafit.o
+fileFolio                ????? Undefined, WEAK Reference from loafit.o
+fileDriver               ????? Undefined, WEAK Reference from loafit.o
+GrafBase                 ????? Undefined, WEAK Reference from loafit.o
+GrafFolioNum             ????? Undefined, WEAK Reference from loafit.o
+_MathBase                ????? Undefined, WEAK Reference from loafit.o
+x$codeseg                01a04 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(printf.o)
+x$dataseg                00000
+putc                     026f8 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+_no_fp_display           02804 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(nofpdisplay.o)
+__vfprintf               01fe0 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+x$codeseg                01a4c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strcpy.o)
+x$dataseg                00000
+x$codeseg                01a64 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strlen.o)
+x$dataseg                00000
+x$codeseg                01a7c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strncasecmp.o)
+x$dataseg                00000
+toupper                  023c4 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(ctype.o)
+x$codeseg                01acc in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strcmp.o)
+x$dataseg                00000
+x$codeseg                01af0 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(free.o)
+x$dataseg                00000
+FreeMemToMemLists        0017c in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+x$codeseg                01b18 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strtol.o)
+x$dataseg                00000
+_strtoul                 0280c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strtoul.o)
+x$codeseg                01ba4 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(fopen.o)
+x$dataseg                00000
+AllocFileBlock           0253c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+memset                   01fb0 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+InitMacIO                02440 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+_stdlib_MacIORItm        02eb8 in AREA C$$data from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+DoIO                     02a2c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(doio.o)
+_stdlib_MacIOReq         02ebc in AREA C$$data from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+x$codeseg                01d4c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(fwrite.o)
+x$dataseg                00000
+bcopy                    02a5c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(bcopy.o)
+fflush                   0276c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+internalfwrite           025ac in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+x$codeseg                01e4c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(fclose.o)
+x$dataseg                00000
+ASMCODE                  00160 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+AllocMem                 00164 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+FreeMem                  0017c in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+CheckItem                00194 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+LookupItem               001ac in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_GetPageSize             001c4 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_ScavengeMem             001dc in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_USecToTicks             001f4 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_TicksToTimeVal          0020c in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_WaitPort                00224 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_FindMH                  0023c in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_AllocMemFromMemList     00254 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_FreeMemToMemList        0026c in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_AllocMemList            00284 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_FreeMemList             0029c in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+_ItemOpened              002b4 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+x$codeseg                01f28 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+x$dataseg                00000
+TailInsertNode           01f28 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+InsertNodeFromTail       01f38 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+AddTail                  01f44 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+FindNamedNode            01f50 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+RemNode                  01f5c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+UniversalInsertNode      01f68 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+RemHead                  01f74 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+RemTail                  01f80 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+AddHead                  01f8c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+InitList                 01f98 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+SetMem                   01fa4 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+CopyMem                  01fbc in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+GetSysErr                01fd4 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(vectors.o)
+x$codeseg                02018 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(fseek.o)
+x$dataseg                00000
+x$codeseg                02140 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(ftell.o)
+x$dataseg                00000
+x$codeseg                021e0 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(malloc.o)
+x$dataseg                00000
+x$codeseg                02224 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(fread.o)
+x$dataseg                00000
+filbuf                   02b70 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(filbuf.o)
+__rt_sdiv                002cc in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(sdiv.o)
+x$codeseg                023ac in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(ctype.o)
+x$dataseg                02db4 in AREA C$$data from Apps:3DO:Interfaces:1p1:Libs:clib.lib(ctype.o)
+tolower                  023ac in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(ctype.o)
+x$codeseg                023dc in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+x$dataseg                02eb4 in AREA C$$data from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+_stdlib_MacItem          02eb4 in AREA C$$data from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+_stdin                   0432c in AREA C$$zidata from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+_stdout                  043cc in AREA C$$zidata from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+_stderr                  0446c in AREA C$$zidata from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+AllocBuffer              023dc in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+IOTags                   02ecc in AREA C$$data from Apps:3DO:Interfaces:1p1:Libs:clib.lib(stdlib.o)
+FindNamedItem            02cc0 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(finditem.o)
+x$codeseg                02804 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(nofpdisplay.o)
+x$dataseg                00000
+x$codeseg                0280c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strtoul.o)
+x$dataseg                00000
+_chval                   02d28 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(chval.o)
+strtoul                  02900 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(strtoul.o)
+x$codeseg                02988 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(doio.o)
+x$dataseg                00000
+CheckIO                  02988 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(doio.o)
+WaitIO                   029ac in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(doio.o)
+WaitPort                 00224 in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(kbvectors.o)
+x$codeseg                02a5c in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(bcopy.o)
+x$dataseg                00000
+x$codeseg                02a78 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(filbuf.o)
+x$dataseg                00000
+MacExpect                02a78 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(filbuf.o)
+ASMCODE                  002cc in AREA ASMCODE from Apps:3DO:Interfaces:1p1:Libs:clib.lib(sdiv.o)
+x$codeseg                02cc0 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(finditem.o)
+x$dataseg                00000
+FindVersionedItem        02ce4 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(finditem.o)
+x$codeseg                02d28 in AREA C$$code from Apps:3DO:Interfaces:1p1:Libs:clib.lib(chval.o)
+x$dataseg                00000
+$$Base                   02edc
+$$Limit                  0aae4
+_etext                   02d6c
+_edata                   02edc
+_end                     0450c
+_estext                  00080
+Image$$RO$$Base          00080
+Image$$RO$$Limit         02d6c
+Image$$RW$$Base          02d6c
+Image$$RW$$Limit         0450c
+Image$$ZI$$Base          02edc
+Image$$ZI$$Limit         0450c

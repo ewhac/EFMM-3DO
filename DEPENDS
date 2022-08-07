@@ -1,0 +1,39 @@
+ctst.o:			castle.h objects.h imgfile.h loaf.h sound.h flow.h \
+			app_proto.h
+file.o:
+levelfile.o:		castle.h objects.h app_proto.h
+timing.o:		castle.h app_proto.h
+imgfile.o:		castle.h imgfile.h app_proto.h
+rend.o:			castle.h imgfile.h loaf.h anim.h app_proto.h
+textstuff.o:		castle.h objects.h imgfile.h loaf.h textstuff.h \
+			app_proto.h
+clip.o:			castle.h app_proto.h
+shoot.o:		castle.h objects.h imgfile.h sound.h app_proto.h
+objects.o:		castle.h objects.h anim.h imgfile.h sound.h \
+			app_proto.h
+loadloaf.o:		castle.h loaf.h app_proto.h
+ob_zombie.o:		castle.h objects.h anim.h imgfile.h sound.h \
+			app_proto.h
+leveldef.o:		castle.h objects.h
+zombietitle.o:		castle.h app_proto.h
+sound.o:		castle.h sound.h soundinterface.h app_proto.h
+thread.o:		castle.h app_proto.h
+genmessage.o:		castle.h objects.h imgfile.h app_proto.h font.h
+ob_exit.o:		castle.h objects.h app_proto.h
+ob_powerup.o:		castle.h objects.h loaf.h anim.h sound.h \
+			ob_powerup.h app_proto.h
+soundinterface.o:	soundinterface.h
+map.o:			castle.h objects.h imgfile.h ob_powerup.h \
+			app_proto.h
+titleseq.o:		castle.h imgfile.h flow.h app_proto.h
+ob_trigger.o:		castle.h objects.h sound.h app_proto.h
+ob_head.o:		castle.h objects.h anim.h imgfile.h app_proto.h
+ob_george.o:		castle.h objects.h anim.h imgfile.h app_proto.h
+ob_spider.o:		castle.h objects.h anim.h imgfile.h app_proto.h
+statscreen.o:		castle.h objects.h imgfile.h font.h sound.h flow.h \
+			option.h app_proto.h
+cinepak.o:		castle.h app_proto.h
+availmem.o:
+option.o:		castle.h objects.h imgfile.h font.h option.h \
+			app_proto.h
+elkabong.o:

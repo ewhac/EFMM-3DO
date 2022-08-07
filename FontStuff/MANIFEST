@@ -1,0 +1,10 @@
+	This directory contains the source code to Greg Omi's font system.
+The file 'NormalBuildOutput' contains the MPW/armcc output to be expected
+from a normal successful build.
+
+	One built, the files "font.co" and "font.so" should be copied to the
+directory containing the EFMM sources.
+
+	The file 'mm.font' contains the font imagery used by EFMM.  I do not
+know how this file is created.  For more info, contact Greg Omi or Jon Leupp
+at (415) 494-1600.

@@ -1,0 +1,37 @@
+
+
+# 09:04:03 ----- Build of all.
+# 09:04:04 ----- Analyzing dependencies.
+
+### Make - Warning: Overriding exported variable definition for "CINCLUDES"
+File "MakeFile"; Line 23
+
+### Make - Warning: Overriding exported variable definition for "AINCLUDES"
+File "MakeFile"; Line 24
+# 09:04:05 ----- Executing build commands.
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -bigend -fc -zps0 -za1 -g -o loafit.o loafit.c
+File ":loafit.c"; Line 59 # Warning: C++ keyword used as identifier: 'this'
+File ":loafit.c"; Line 119 # Warning: implicit cast from (void *), C++ forbids
+File ":loafit.c"; Line 273 # Warning: implicit cast from (void *), C++ forbids
+File ":loafit.c"; Line 410 # Warning: implicit cast from (void *), C++ forbids
+File ":loafit.c"; Line 411 # Warning: implicit cast from (void *), C++ forbids
+File ":loafit.c"; Line 485 # Warning: implicit cast from (void *), C++ forbids
+### ":loafit.c": 6 warnings (+ 8 suppressed), 0 errors, 0 serious errors
+    armlink -AIF -B 0x00 -R -o loafit Apps:3DO:Interfaces:1p1:Libs:cstartup.o loafit.o Apps:3DO:Interfaces:1p1:Libs:Lib3DO.lib Apps:3DO:Interfaces:1p1:Libs:graphics.lib Apps:3DO:Interfaces:1p1:Libs:filesystem.lib Apps:3DO:Interfaces:1p1:Libs:input.lib Apps:3DO:Interfaces:1p1:Libs:audio.lib Apps:3DO:Interfaces:1p1:Libs:music.lib Apps:3DO:Interfaces:1p1:Libs:clib.lib Apps:3DO:Interfaces:1p1:Libs:swi.lib Apps:3DO:Interfaces:1p1:Libs:operamath.lib
+    armlink -AIF -B 0x00 -R -Debug -S loafit.catsym -o loafit.dbg Apps:3DO:Interfaces:1p1:Libs:cstartup.o loafit.o Apps:3DO:Interfaces:1p1:Libs:Lib3DO.lib Apps:3DO:Interfaces:1p1:Libs:graphics.lib Apps:3DO:Interfaces:1p1:Libs:filesystem.lib Apps:3DO:Interfaces:1p1:Libs:input.lib Apps:3DO:Interfaces:1p1:Libs:audio.lib Apps:3DO:Interfaces:1p1:Libs:music.lib Apps:3DO:Interfaces:1p1:Libs:clib.lib Apps:3DO:Interfaces:1p1:Libs:swi.lib Apps:3DO:Interfaces:1p1:Libs:operamath.lib
+    armcc -Wanp -c -J Apps:3DO:Interfaces:1p1:Includes: -bigend -fc -zps0 -za1 -g -o loafanim.o loafanim.c
+File ":loafanim.c"; Line 64 # Warning: C++ keyword used as identifier: 'this'
+File ":loafanim.c"; Line 139 # Warning: implicit cast from (void *), C++ forbids
+File ":loafanim.c"; Line 246 # Warning: implicit cast from (void *), C++ forbids
+File ":loafanim.c"; Line 397 # Warning: implicit cast from (void *), C++ forbids
+File ":loafanim.c"; Line 586 # Warning: implicit cast from (void *), C++ forbids
+File ":loafanim.c"; Line 587 # Warning: implicit cast from (void *), C++ forbids
+File ":loafanim.c"; Line 683 # Warning: implicit cast from (void *), C++ forbids
+### ":loafanim.c": 7 warnings (+ 12 suppressed), 0 errors, 0 serious errors
+    armlink -AIF -B 0x00 -R -Debug -S loafanim.catsym -o loafanim.dbg Apps:3DO:Interfaces:1p1:Libs:cstartup.o loafanim.o Apps:3DO:Interfaces:1p1:Libs:Lib3DO.lib Apps:3DO:Interfaces:1p1:Libs:graphics.lib Apps:3DO:Interfaces:1p1:Libs:filesystem.lib Apps:3DO:Interfaces:1p1:Libs:input.lib Apps:3DO:Interfaces:1p1:Libs:audio.lib Apps:3DO:Interfaces:1p1:Libs:music.lib Apps:3DO:Interfaces:1p1:Libs:clib.lib Apps:3DO:Interfaces:1p1:Libs:swi.lib Apps:3DO:Interfaces:1p1:Libs:operamath.lib
+    stripaif loafanim.dbg -o loafanim -s loafanim.sym
+    modbin loafanim -stack 4096
+    modbin loafanim.dbg -stack 4096
+    echo "Nice software!"
+Nice software!
+# 09:04:35 ----- Done.

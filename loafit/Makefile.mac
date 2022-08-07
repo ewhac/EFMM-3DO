@@ -1,0 +1,80 @@
+# :ts=8 bk=0
+#
+# Makefile for Loafit.  Intended for use on a Sun workstation.
+# (Probably overkill for this...)
+#
+# Leo L. Schwab						9305.12
+#  Converted from standard UNIX format to Mac format	9312.16
+############################################################################
+# Copyright (c) 1992 New Technologies Group, Inc.
+#
+# This document is proprietary and confidential.  Divulge it and DIE.
+############################################################################
+#
+LOAFIT_CO =	loafit.o
+LOAFIT_O =	{LOAFIT_CO}
+
+LOAFANIM_CO =	loafanim.o
+LOAFANIM_O =	{LOAFANIM_CO}
+
+
+UPDATE =	:other:opera:dragontail6
+LIB =		{3DOLibs}
+CINCLUDES =	-J {3DOIncludes}
+AINCLUDES =	-I {3DOIncludes}
+
+LIBS =		{LIB}Lib3DO.lib {LIB}graphics.lib {LIB}filesystem.lib ∂
+		{LIB}input.lib {LIB}audio.lib {LIB}music.lib ∂
+		{LIB}clib.lib {LIB}swi.lib {LIB}operamath.lib
+
+BIN =		:usr:local:armbin
+STARTUP =	{LIB}cstartup.o
+COMPILE =	armcc
+ASSEMBLE =	armasm
+LINK =		armlink
+MAKELIB =	armlib
+
+COPTS = -Wanp -c {CINCLUDES} -bigend -fc -zps0 -za1 -g
+SOPTS = -PD '|_LITTLE_END_| SETL {FALSE};' {AINCLUDES} -bigend -Apcs 3'/'32bit -g
+LOPTS = -AIF -B 0x00 -R
+
+
+############################################################################
+# Rules for building files.
+#
+.o ƒ .c
+	{COMPILE} {COPTS} -o {default}.o {default}.c
+
+.o ƒ .asm
+	{ASSEMBLE} {SOPTS} -o {default}.o {default}.asm
+
+
+############################################################################
+# Application builder.
+#
+all		ƒƒ loafit loafanim
+	echo "Nice software!"
+
+loafit		ƒƒ {STARTUP} {LIBS} {LOAFIT_O}
+	{LINK} {LOPTS} -o loafit {STARTUP} {LOAFIT_O} {LIBS}
+	{LINK} {LOPTS} -Debug -S loafit.catsym -o loafit.dbg {STARTUP} {LOAFIT_O} {LIBS}
+
+loafanim	ƒƒ {STARTUP} {LIBS} {LOAFANIM_O}
+	{LINK} {LOPTS} -Debug -S loafanim.catsym -o loafanim.dbg {STARTUP} {LOAFANIM_O} {LIBS}
+	stripaif loafanim.dbg -o loafanim -s loafanim.sym
+	modbin loafanim -stack 4096
+	modbin loafanim.dbg -stack 4096
+
+
+############################################################################
+# Automagic prototype generator.  (Requires UNIX tools.)
+#
+#proto:
+#	cproto {INCLUDES} {LOAFIT_CO:.o=.c} | sed -e "s/register //g" > app_proto.h
+#
+
+############################################################################
+# Include dependencies.
+#
+loafit.o	ƒƒ loafit.h
+loafanim.o	ƒƒ loafit.h

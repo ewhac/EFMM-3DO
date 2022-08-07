@@ -1,0 +1,51 @@
+#
+# Makefile for example test program
+#
+# Tuesday, October 6, 1992 11:18:23 AM
+#
+# Copyright (c) 1992 New Technologies Group, Inc.
+#
+# This document is proprietary and confidential
+#
+
+NOW=		`date`
+
+UPDATE=		'GregsOpera:'
+LIB=		{3DOLibs}
+INCLUDES=	{3DOIncludes}
+
+LIBS=		{LIB}graphics.lib {LIB}filesystem.lib {LIB}operamath.lib ∂
+			{LIB}swi.lib {LIB}music.lib {LIB}audio.lib ∂
+			{LIB}input.lib {LIB}clib.lib
+
+BIN=		'Apps:bin:'
+
+STARTUP=	{LIB}cstartup.o
+COMPILE=	armcc
+ASSEMBLE=	ARMasm
+LINK=		ARMlink
+LIBRARY=	ARMlib
+
+FontSRC=		Font.s Font.i
+
+FontC=			Font.c
+
+COPTS = -Wa -J {INCLUDES} -DNOW="{NOW}" -fc -zps0 -gf
+SOPTS = -PD '|_LITTLE_END_| SETL {FALSE};' -I {INCLUDES} -Apcs 3'/'32bit -g
+LOPTS = -AIF -B 0x00 -R 
+
+
+all		ƒƒ		Font.so Font.co
+
+.co ƒ .c
+	{COMPILE} {COPTS} -o {default}.co {default}.c
+	
+.so ƒ .s
+	{ASSEMBLE} {SOPTS} -o {default}.so {default}.s
+
+Font.so ƒƒ	{FontSRC}
+
+Font.co ƒƒ	{FontC}
+
+clean		ƒƒ
+				delete  ≈.co ≈.ope ≈.so  

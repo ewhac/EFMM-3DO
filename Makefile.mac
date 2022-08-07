@@ -1,0 +1,126 @@
+# :ts=8 bk=0
+#
+# Makefile for CastleHopper.  Intended for use on a Sun workstation.
+#
+# Leo L. Schwab						9305.12
+#  Converted from standard UNIX format to the Mac	9312.15
+############################################################################
+# Copyright (c) 1993 New Technologies Group, Inc.
+#
+# This document is proprietary and confidential.  Divulge it and DIE.
+############################################################################
+#
+CASTLE_CO =	ctst.o rend.o shoot.o objects.o ob_zombie.o ob_george.o ¶
+		ob_head.o ob_spider.o ob_powerup.o ob_exit.o ob_trigger.o ¶
+		clip.o levelfile.o leveldef.o genmessage.o statscreen.o ¶
+		thread.o titleseq.o imgfile.o loadloaf.o file.o timing.o ¶
+		sound.o soundinterface.o cinepak.o map.o option.o ¶
+		elkabong.o
+FONT_O =	font.co font.so
+CASTLE_AO =	misc.o project.o
+CASTLE_O =	{CASTLE_CO} {CASTLE_AO}
+
+
+LIB =		{3DOLibs}
+CINCLUDES =	-J {3DOIncludes} -J {DSSUPPORT}
+AINCLUDES =	-I {3DOIncludes} -I {DSSUPPORT}
+DSSUPPORT =	:dssupport
+
+# Improved music.lib fetched locally for 9311.11 build.
+LIBS =		{DSSUPPORT}:Subscriber.lib ¶
+		{LIB}Lib3DO.lib {LIB}graphics.lib {LIB}filesystem.lib ¶
+		{LIB}input.lib {LIB}audio.lib music.lib ¶
+		{LIB}clib.lib {LIB}swi.lib {LIB}operamath.lib ¶
+		{DSSUPPORT}:DataAcq.lib {DSSUPPORT}:DS.lib ¶
+		{DSSUPPORT}:codec.lib
+
+STARTUP =	{LIB}cstartup.o
+COMPILE =	armcc
+ASSEMBLE =	armasm
+LINK =		armlink
+MAKELIB =	armlib
+
+COPTS = -Wanp -c {CINCLUDES} -bigend -fc -zps0 -za1
+SOPTS = -PD '|_LITTLE_END_| SETL {FALSE};' {AINCLUDES} -bigend -Apcs 3'/'32bit
+LOPTS = -AIF -B 0x00 -R
+
+
+############################################################################
+# Rules for building files.
+#
+.o Ä .c
+	{COMPILE} {COPTS} -o {default}.o {default}.c
+
+.o Ä .asm
+	{ASSEMBLE} {SOPTS} -o {default}.o {default}.asm
+
+
+############################################################################
+# Application builder.
+#
+all	Ä ctst 
+	echo "Nice software!"
+
+### Debug version
+###
+##ctst	ÄÄ {STARTUP} {LIBS} {CASTLE_O} {FONT_O}
+##	{LINK} {LOPTS} -Debug -S ctst.catsym -o ctst.dbg {STARTUP} {CASTLE_O} {FONT_O} {LIBS}
+##	stripaif ctst.dbg -o ctst -s ctst.sym
+##	modbin ctst -stack 4096 -debug
+##	modbin ctst.dbg -stack 4096 -debug
+
+
+ctst	ÄÄ {STARTUP} {LIBS} {CASTLE_O} {FONT_O}
+	{LINK} {LOPTS} -S ctst.catsym -o ctst {STARTUP} {CASTLE_O} {FONT_O} {LIBS}
+	modbin ctst -stack 10240
+	SetFile -c EaDJ -t PROJ ctst
+#	Duplicate -y ctst {UPDATE}
+
+
+############################################################################
+# Automagic prototype generator.  (Designed for UNIX.  Doesn't work on Mac,
+# 'cuz the Mac doesn't have useful tools like 'cproto' and 'sed'...)
+#
+#proto:
+#	cproto {INCLUDES} {CASTLE_CO:.o=.c} | sed -e "s/register //g" > app_proto.h
+#
+
+############################################################################
+# Include dependencies.
+#
+ctst.o			ÄÄ castle.h objects.h imgfile.h loaf.h sound.h flow.h ¶
+			   app_proto.h
+levelfile.o		ÄÄ castle.h objects.h app_proto.h
+timing.o		ÄÄ castle.h app_proto.h
+imgfile.o		ÄÄ castle.h imgfile.h app_proto.h
+rend.o			ÄÄ castle.h imgfile.h loaf.h anim.h app_proto.h
+textstuff.o		ÄÄ castle.h objects.h imgfile.h loaf.h textstuff.h ¶
+			   app_proto.h
+clip.o			ÄÄ castle.h app_proto.h
+shoot.o			ÄÄ castle.h objects.h imgfile.h sound.h app_proto.h
+objects.o		ÄÄ castle.h objects.h anim.h imgfile.h sound.h ¶
+			   app_proto.h
+loadloaf.o		ÄÄ castle.h loaf.h app_proto.h
+ob_zombie.o		ÄÄ castle.h objects.h anim.h imgfile.h sound.h ¶
+			   app_proto.h
+leveldef.o		ÄÄ castle.h objects.h
+zombietitle.o		ÄÄ castle.h app_proto.h
+sound.o			ÄÄ castle.h sound.h soundinterface.h app_proto.h
+thread.o		ÄÄ castle.h app_proto.h
+genmessage.o		ÄÄ castle.h objects.h imgfile.h app_proto.h font.h
+ob_exit.o		ÄÄ castle.h objects.h app_proto.h
+ob_powerup.o		ÄÄ castle.h objects.h loaf.h anim.h sound.h ¶
+			   ob_powerup.h app_proto.h
+soundinterface.o	ÄÄ soundinterface.h
+map.o			ÄÄ castle.h objects.h imgfile.h ob_powerup.h ¶
+			   app_proto.h
+titleseq.o		ÄÄ castle.h imgfile.h flow.h app_proto.h
+ob_trigger.o		ÄÄ castle.h objects.h sound.h app_proto.h
+ob_head.o		ÄÄ castle.h objects.h anim.h imgfile.h app_proto.h
+ob_george.o		ÄÄ castle.h objects.h anim.h imgfile.h app_proto.h
+ob_spider.o		ÄÄ castle.h objects.h anim.h imgfile.h app_proto.h
+statscreen.o		ÄÄ castle.h objects.h imgfile.h font.h sound.h flow.h ¶
+			   option.h app_proto.h
+cinepak.o		ÄÄ castle.h app_proto.h
+option.o		ÄÄ castle.h objects.h imgfile.h font.h option.h ¶
+			   app_proto.h
