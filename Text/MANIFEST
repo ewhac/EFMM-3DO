@@ -1,1 +1,18 @@
-	This directory contains some helpful text files describing the meaningsof things within EFMM.LEGEND	Describes all the ASCII characters used in EFMM map files, and what	they mean.OptionList	EFMM has some command line options.  This file describes each of them.PowerupTemplate.ls	Example of a LOAF script file for building a powerups art file.  You	can use this as a template to create your own.WallTemplate.ls	Example of a LOAF script file for building a wall art file.  You can	use this as a template to create your own.
+	This directory contains some helpful text files describing the meanings
+of things within EFMM.
+
+
+LEGEND
+	Describes all the ASCII characters used in EFMM map files, and what
+	they mean.
+
+OptionList
+	EFMM has some command line options.  This file describes each of them.
+
+PowerupTemplate.ls
+	Example of a LOAF script file for building a powerups art file.  You
+	can use this as a template to create your own.
+
+WallTemplate.ls
+	Example of a LOAF script file for building a wall art file.  You can
+	use this as a template to create your own.

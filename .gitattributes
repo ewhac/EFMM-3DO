@@ -1,0 +1,15 @@
+*.txt		text
+*.[chsi]	text
+*.asm		text
+*.md		text
+*.json		text
+GNUmakefile*	text
+Makefile*	text
+
+*.o		-text
+*.[sc]o		-text
+*.a		-text
+*.lib		-text
+*.dbg		-text
+*.sym		-text
+*.font		-text

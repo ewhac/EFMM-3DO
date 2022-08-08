@@ -1,1 +1,38 @@
-SYNOPSIS	ctst [ -c ] [ -l<sequencefile> ] [ -a# ] [ -s# ] [ -x# ]OPTIONS	-c:	"Cheat" mode, otherwise known as LAYTEST mode.  In this		mode, pressing the PAUSE key on the joypad will exit the		current level, advancing you to the next.  (You don't get to		see the endgame, though.)  This is useful when gathering		file access statistics for building an optimized CD-ROM		image.	-l<filename>:		Specify file containing level sequence.  If absent, the file		named "LevelSequence" is used.	-a#:	Specify the player's acceleration rate.  That is, the rate		at which the player reaches maximum motive and rotational		speed.  Default value is 0x24000.  Larger values accelerate		faster.  Values smaller than 0x18000 accelerate very slowly.		Values less than 0x10000 should not be used, as you are		unable to overcome "friction."	-s#:	Specify the player's decelleration rate; the rate at which		the player slows to a stop when not pressing the joypad.		Default value is 4.  Smaller values stop quicker.  0 is		"PosiDrive," 7 or higher gets you SpaceWars.	-x#:	The number of points for an extra life.  Default is 500000.EXAMPLES	ctst -x750000 -lToughLevels	ctst -a0x16000 -s7 -cNOTE	For the arguments -l, -a, -s, and -x, there can be no space between	the option letter and the value.
+SYNOPSIS
+	ctst [ -c ] [ -l<sequencefile> ] [ -a# ] [ -s# ] [ -x# ]
+
+OPTIONS
+	-c:	"Cheat" mode, otherwise known as LAYTEST mode.  In this
+		mode, pressing the PAUSE key on the joypad will exit the
+		current level, advancing you to the next.  (You don't get to
+		see the endgame, though.)  This is useful when gathering
+		file access statistics for building an optimized CD-ROM
+		image.
+
+	-l<filename>:
+		Specify file containing level sequence.  If absent, the file
+		named "LevelSequence" is used.
+
+	-a#:	Specify the player's acceleration rate.  That is, the rate
+		at which the player reaches maximum motive and rotational
+		speed.  Default value is 0x24000.  Larger values accelerate
+		faster.  Values smaller than 0x18000 accelerate very slowly.
+		Values less than 0x10000 should not be used, as you are
+		unable to overcome "friction."
+
+	-s#:	Specify the player's decelleration rate; the rate at which
+		the player slows to a stop when not pressing the joypad.
+		Default value is 4.  Smaller values stop quicker.  0 is
+		"PosiDrive," 7 or higher gets you SpaceWars.
+
+	-x#:	The number of points for an extra life.  Default is 500000.
+
+
+EXAMPLES
+	ctst -x750000 -lToughLevels
+
+	ctst -a0x16000 -s7 -c
+
+NOTE
+	For the arguments -l, -a, -s, and -x, there can be no space between
+	the option letter and the value.
