@@ -5,7 +5,7 @@
  *
  *	Written by:		Neil Cormia (variations on a theme by Joe Buczek)
  *
- *	Copyright © 1993 The 3DO Company. All Rights Reserved.
+ *	Copyright Â© 1993 The 3DO Company. All Rights Reserved.
  *
  *	History:
  *	6/16/93		jb		Added JOIN_CHUNK_TYPE, JOIN_HEADER_SUBTYPE, JOIN_DATA_SUBTYPE

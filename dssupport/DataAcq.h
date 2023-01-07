@@ -5,7 +5,7 @@
  *
  *	Written by:		Joe Buczek
  *
- *	Copyright © 1993 The 3DO Company. All Rights Reserved.
+ *	Copyright Â© 1993 The 3DO Company. All Rights Reserved.
  *
  *	History:
  *	8/19/93		jb		Took FAKE_ABORT_IO out. Kept the internal abortQueue 

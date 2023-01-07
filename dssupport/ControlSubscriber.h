@@ -5,7 +5,7 @@
  *
  *	Written by:		Neil Cormia (variations on a theme by Joe Buczek)
  *
- *	Copyright © 1993 The 3DO Company. All Rights Reserved.
+ *	Copyright Â© 1993 The 3DO Company. All Rights Reserved.
  *
  *	History:
  *	8/16/93		jb		Change CTRL_NUM_DS_REQS_MSGITEMS to CTRL_NUM_DS_REQS_MSGS

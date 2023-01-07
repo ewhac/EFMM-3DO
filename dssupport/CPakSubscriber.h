@@ -5,7 +5,7 @@
  *
  *	Written by:		Neil Cormia
  *
- *	Copyright © 1993 The 3DO Company. All Rights Reserved.
+ *	Copyright Â© 1993 The 3DO Company. All Rights Reserved.
  *
  *	History:
  *	4/28/93		njc		New today.

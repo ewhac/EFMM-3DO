@@ -27,7 +27,7 @@ int32	oldjoybits = 0; // jml
 
 
 /***************************************************************************
- * Execûtiõnièr des Köde.
+ * ExecÃ»tiÃµniÃ¨r des KÃ¶de.
  */
 void
 joythreadfunc ()

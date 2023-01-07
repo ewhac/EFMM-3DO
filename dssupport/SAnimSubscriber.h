@@ -5,7 +5,7 @@
  *
  *	Written by:		Neil Cormia (variations on a theme by Joe Buczek)
  *
- *	Copyright © 1993 The 3DO Company. All Rights Reserved.
+ *	Copyright Â© 1993 The 3DO Company. All Rights Reserved.
  *
  *	History:
  *	4/22/93		njc		New today.

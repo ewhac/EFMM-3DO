@@ -3,7 +3,7 @@
  *
  *	Contains:		definitions for ItemPool.c
  *
- *	Copyright © 1993 The 3DO Company. All Rights Reserved.
+ *	Copyright Â© 1993 The 3DO Company. All Rights Reserved.
  *
  *	History:
  *	5/18/93		jb		Switch 'unassignedList' to 'inUseList'
